@@ -1,0 +1,26 @@
+# LaTeX build directories
+**/.build/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+
+# VS Code
+.vscode/*.log
+
+# OS
+.DS_Store
+Thumbs.db

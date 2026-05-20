@@ -1,0 +1,26 @@
+{
+  "latex-workshop.docker.enabled": false,
+  "latex-workshop.latex.recipe.default": "latexmk-uplatex",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.outDir": "%DIR%/.build",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-uplatex",
+      "command": "latexmk",
+      "args": [
+        "-r",
+        "%WORKSPACE_FOLDER%/.latexmkrc",
+        "-cd",
+        "-outdir=%OUTDIR%",
+        "%DOC_EXT%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk-uplatex",
+      "tools": ["latexmk-uplatex"]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab"
+}
