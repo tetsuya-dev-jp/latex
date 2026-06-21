@@ -19,8 +19,11 @@
   "latex-workshop.latex.recipes": [
     {
       "name": "latexmk-uplatex",
-      "tools": ["latexmk-uplatex"]
+      "tools": [
+        "latexmk-uplatex"
+      ]
     }
   ],
-  "latex-workshop.view.pdf.viewer": "tab"
+  "latex-workshop.view.pdf.viewer": "tab",
+  "editor.wordWrap": "on"
 }

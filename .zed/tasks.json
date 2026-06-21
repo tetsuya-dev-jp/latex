@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Open PDF in SumatraPDF",
+    "command": "/home/tetsuya/.local/bin/sumatra-pdf.sh",
+    "args": ["-reuse-instance", "$ZED_DIRNAME/.build/main.pdf"],
+    "tags": ["latex-view"]
+  }
+]
